@@ -1,0 +1,12 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Exclude:
+    - 'db/seeds/*.rb'
